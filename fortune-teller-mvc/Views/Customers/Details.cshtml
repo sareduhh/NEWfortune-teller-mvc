@@ -1,0 +1,66 @@
+﻿@model fortune_teller_mvc.Models.Customer
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Customer</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FirstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FirstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+
+        <dd>
+            @ViewBag.retire
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BirthMonth)
+        </dt>
+
+        <dd>
+            @ViewBag.money
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FavoriteColor)
+        </dt>
+
+        <dd>
+            @ViewBag.vehicle
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NumberOfSiblings)
+        </dt>
+
+        <dd>
+            @ViewBag.vacationHome
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.CustomerID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
