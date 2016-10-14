@@ -1534,8 +1534,8 @@ table th[class*="col-"] {
 .table-hover > tbody > tr > td.success:hover,
 .table-hover > tbody > tr > th.success:hover,
 .table-hover > tbody > tr.success:hover > td {
-  background-color: #d0e9c6;
-  border-color: #c9e2b3;
+  background-color: none;
+  border-color: none;
 }
 
 .table > thead > tr > td.danger,
@@ -3830,8 +3830,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li.disabled > a {
   color: #999999;
 }
-
-.nav > li.disabled > a:hover,
+/*.nav > li.disabled > a:hover,
 .nav > li.disabled > a:focus {
   color: #999999;
   text-decoration: none;
@@ -3844,7 +3843,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav .open > a:focus {
   background-color: #eeeeee;
   border-color: #428bca;
-}
+}*/
 
 .nav .nav-divider {
   height: 1px;
@@ -3873,7 +3872,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-radius: 4px 4px 0 0;
 }
 
-.nav-tabs > li > a:hover {
+/*.nav-tabs > li > a:hover {
   border-color: #eeeeee #eeeeee #dddddd;
 }
 
@@ -3885,7 +3884,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
-}
+}*/
 
 .nav-tabs.nav-justified {
   width: 100%;

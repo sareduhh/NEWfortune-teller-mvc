@@ -1,6 +1,14 @@
 ﻿body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-image: url('starry-night-star-seamless-background.jpg');
+    color:white;
+    font-family: 'Taviraj', serif;
+}
+#navvy{
+    background-color:white;
+    color:darkblue;
+    
 }
 
 /* Set padding to keep content from hitting the edges */
